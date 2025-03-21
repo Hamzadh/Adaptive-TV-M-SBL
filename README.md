@@ -18,7 +18,7 @@ For optimal performance, we initialize the algorithm with the following paramete
 - Dual variable matrix: $\vecgreek{\lambda}^{(0)} = \boldsymbol{0}_N$
 - M-SBL algorithm parameter: $\vecgreek{gamma}^{(0)} = 0.1 \times \boldsymbol{1}_N$
 
-For both our proposed algorithm and MSBL-DoL, $\vecgreek{gamma}^{(0)}$ can be initialized as described above or derived from the SBL solution (either upon convergence or after a few iterations) for a warm start.
+For both our proposed algorithm and MSBL-DoL, $\vecgreek{\gamma}^{(0)}$ can be initialized as described above or derived from the SBL solution (either upon convergence or after a few iterations) for a warm start.
 
 ### Convergence Parameters
 - Stopping criterion: $\epsilon=10^{-3}$
