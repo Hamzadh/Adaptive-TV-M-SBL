@@ -14,17 +14,17 @@ The code provides a complete MATLAB implementation of the proposed algorithm alo
 
 ### Initialization
 For optimal performance, we initialize the algorithm with the following parameters:
-- Auxiliary variable: $\vec{C}^{(0)} = \vec{0}_N$
-- Dual variable matrix: $\lambdab^{(0)} = \vec{0}_N$
-- M-SBL algorithm parameter: $\gammab^{(0)} = 0.1 \times \vec{1}_N$
+- Auxiliary variable: $\boldsymbol{C}^{(0)} = \boldsymbol{0}_N$
+- Dual variable matrix: $\vecgreek{\lambda}^{(0)} = \boldsymbol{0}_N$
+- M-SBL algorithm parameter: $\vecgreek{gamma}^{(0)} = 0.1 \times \boldsymbol{1}_N$
 
-For both our proposed algorithm and MSBL-DoL, $\gammab^{(0)}$ can be initialized as described above or derived from the SBL solution (either upon convergence or after a few iterations) for a warm start.
+For both our proposed algorithm and MSBL-DoL, $\vecgreek{gamma}^{(0)}$ can be initialized as described above or derived from the SBL solution (either upon convergence or after a few iterations) for a warm start.
 
 ### Convergence Parameters
 - Stopping criterion: $\epsilon=10^{-3}$
 - Maximum ADMM iterations: $t_{\mathrm{max}}=10$
 - Maximum EM iterations: $k_{\mathrm{max}}=100$
-- Number of considered neighbors: $\{|\Omega_i|=3\}_{i=1}^N$
+- Number of considered neighbors: $\{|\Omega_i|=3\}$
 
 ### Support Detection
 Given an estimate $\vec{X}$ from any sparse recovery algorithm, we define the estimated support of the signal as:
