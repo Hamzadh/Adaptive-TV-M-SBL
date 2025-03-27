@@ -45,8 +45,3 @@ If you use this code in your research, please cite our paper:(this will be updat
 
 For any question, inquiry or feedback, Please get in touch via email: hamza.djelouat@oulu.fi or djelouat.hmz@gmail.com 
 
-## License
-[Include license information here]
-
-## Contact
-[Include contact information here]
