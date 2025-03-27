@@ -36,10 +36,14 @@ where $\epsilon_{\mathrm{thr}}$ is a small pre-defined positive threshold. In ou
 Alternatively, the support can be estimated by selecting the $K_{nz}$ largest elements of the signal, where $K_{nz}$ denotes the number of nonzero elements.
 
 ## Citation
-If you use this code in your research, please cite our paper:
+If you use this code in your research, please cite our paper:(this will be updated once the paper is published)
 ```
 @article{...}
 ```
+
+## Canatct infomation
+
+For any question, inquiry or feedback, Please get in touch via email: hamza.djelouat@oulu.fi or djelouat.hmz@gmail.com 
 
 ## License
 [Include license information here]
